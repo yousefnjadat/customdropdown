@@ -1,0 +1,383 @@
+sendinfodto{
+  "infoText": "string",
+  "attachments": [
+    "string"
+  ]
+}
+/jiacc-eservices/PostInternationalCooperationForm{
+  "Request": "string",
+  "Name_of_Entity_GUID": "string",
+  "Name": "string",
+  "Job_Title": "string",
+  "Email": "string",
+  "Post_Address": "string",
+  "Phone": "string",
+  "Fax": "string"
+}
+
+
+/jiacc-eservices/PostRightToObtainInformation{
+  "Applicant_Category_GUID": "string",
+  "Company_Name": "string",
+  "Workplace_Company_Name": "string",
+  "No_Book_Authorization": "string",
+  "Commercial_Registration_No": "string",
+  "Date_Book_Mandate": "string",
+  "Commissioner_Name": "string",
+  "Authorization_Letter": "string",
+  "First_Name": "string",
+  "Second_Name": "string",
+  "Third_Name": "string",
+  "Last_Name": "string",
+  "National_Number": "string",
+  "Copy_of_personal_ID": "string",
+  "Governorate_GUID": "string",
+  "District_GUID": "string",
+  "Province_GUID": "string",
+  "Street_Name": "string",
+  "Building_Number": "string",
+  "Postal_Code": "string",
+  "Mailbox_Number_Location": "string",
+  "Nearest_Landmark": "string",
+  "Employer_GUID": "string",
+  "main_entity_GUID": "string",
+  "sub_1_GUID": "string",
+  "sub_2_GUID": "string",
+  "Workplace_Occupation": "string",
+  "Workplace_Retirement": "string",
+  "Mobile_Phone_Number": "string",
+  "Phone_Number": "string",
+  "Fax_Number": "string",
+  "Email": "string",
+  "Identification_Document_GUID": "string",
+  "Document_Name": "string",
+  "Purpose_Acquiring_Information_GUID": "string",
+  "Other_Purposes": "string",
+  "Method_Delivering_GUID": "string",
+  "Other_Ways": "string",
+  "Subject_of_Information": "string",
+  "CardNumber": "string",
+  "PassportNumber": "string",
+  "Attachments": [
+    {
+      "Attachment_Name": "string",
+      "Attachment": "string"
+    }
+  ]
+}
+
+
+/jiacc-eservices/PostProtectionRequestForm{
+  "First_Name": "string",
+  "Second_Name": "string",
+  "Third_Name": "string",
+  "Last_Name": "string",
+  "National_Num": "string",
+  "Nationality_GUID": "string",
+  "Doc_Num_Non_Jo": "string",
+  "Phone": "string",
+  "Email": "string",
+  "Workplace": "string",
+  "Job_Title": "string",
+  "Submission_Date": "string",
+  "Nature_Of_The_Threat": "string",
+  "Describe_Threat": "string",
+  "Protection_Request_Type_GUID": "string",
+  "Gender_GUID": "string",
+  "Other_Nationality_GUID": "string",
+  "Mothers_Name": "string",
+  "Birth_Date": "string",
+  "Job_Number": "string",
+  "ID_Number": "string",
+  "Alternative_Phone_Number": "string",
+  "MailBox": "string",
+  "Postal_Code": "string",
+  "Nearest_Landmark": "string",
+  "Region_GUID": "string",
+  "Governorate_GUID": "string",
+  "Liwaa_GUID": "string",
+  "Qadaa_GUID": "string",
+  "Municipality_GUID": "string",
+  "Locality_GUID": "string",
+  "Street_Name": "string",
+  "Building_Number": "string",
+  "Main_Work_Place_Entity_GUID": "string",
+  "Sub_Work_Place_Level_1_GUID": "string",
+  "Sub_Work_Place_Level_2_GUID": "string",
+  "Sub_Work_Place_Level_3_GUID": "string",
+  "Information_Number": "string",
+  "Case_Number": "string",
+  "Applicant_Category_GUID": "string",
+  "Country_Name_GUID": "string",
+  "Alternative_Country_Name_GUID": "string",
+  "Protection_Type": [
+    {
+      "Protection_Type_GUID": "string"
+    }
+  ],
+  "Names_Of_Protected": [
+    {
+      "Other_Nationality_GUID": "string",
+      "Gender_GUID": "string",
+      "National_Num": "string",
+      "First_Name": "string",
+      "Second_Name": "string",
+      "Third_Name": "string",
+      "Last_Name": "string",
+      "Relationship_GUID": "string",
+      "Nationality_GUID": "string",
+      "Protection_Type": [
+        {
+          "Protection_Type_GUID": "string"
+        }
+      ]
+    }
+  ],
+  "Attachments_Protection_Request": [
+    {
+      "Attachment_Name": "string",
+      "Attachment": "string"
+    }
+  ]
+}
+
+/jiacc-eservices/PostInvestmentComplaint{
+  "Nationality_GUID": "string",
+  "Other_Nationality_GUID": "string",
+  "National_Num": "string",
+  "Investor_ID": "string",
+  "First_Name": "string",
+  "Second_Name": "string",
+  "Third_Name": "string",
+  "Last_Name": "string",
+  "Phone": "string",
+  "Region_GUID": "string",
+  "Governorate_GUID": "string",
+  "Street_Name": "string",
+  "Building_Number": "string",
+  "Complaint_Details": "string",
+  "Submitted_Comission_GUID": "string",
+  "Submitted_JudicialAuth_GUID": "string",
+  "Submitted_OtherAgency_GUID": "string",
+  "Birth_Date": "string",
+  "Mothers_Name": "string",
+  "Liwaa_GUID": "string",
+  "Qadaa_GUID": "string",
+  "Municipality_GUID": "string",
+  "Locality_GUID": "string",
+  "Gender_GUID": "string",
+  "Agency_Name": "string",
+  "Alternative_Phone_Number": "string",
+  "Email": "string",
+  "MailBox": "string",
+  "Postal_Code": "string",
+  "Nearest_Landmark": "string",
+  "Country_Name_GUID": "string",
+  "Alternative_Country_Name_GUID": "string",
+  "Complained_About_Information": [
+    {
+      "Main_Entity": "string",
+      "Entity_Name": "string",
+      "Sub_Entity_One": "string",
+      "Sub_Entity_Two": "string",
+      "Complained_About_First_Name": "string",
+      "Complained_About_Second_Name": "string",
+      "Complained_About_Third_Name": "string",
+      "Complained_About_Last_Name": "string",
+      "Complained_About_Profession": "string",
+      "Complained_About_Country_Name": "string",
+      "Complained_About_Phone_Number": "string"
+    }
+  ],
+  "Attachment_Name_Investment_Complaint": [
+    {
+      "Attachment_Name": "string",
+      "Attachment": "string"
+    }
+  ]
+}
+
+
+/jiacc-eservices/PostInformForm{
+  "Other_Nationality_GUID": "string",
+  "National_Number": "string",
+  "ID_Num": "string",
+  "Nationality_GUID": "string",
+  "Country_Name_GUID": "string",
+  "First_Name": "string",
+  "Second_Name": "string",
+  "Third_Name": "string",
+  "Last_Name": "string",
+  "Mobile_Number": "string",
+  "Alt_Mobile_Number": "string",
+  "Email": "string",
+  "Birth_Date": "string",
+  "Governorate_GUID": "string",
+  "Liwa_GUID": "string",
+  "Kada_GUID": "string",
+  "Street_Name": "string",
+  "Building_Number": "string",
+  "MailBox": "string",
+  "Postal_Code": "string",
+  "Nearest_Landmark": "string",
+  "Information_Description": {},
+  "Attachments": [
+    {
+      "Attachment_Name": "string",
+      "Attachment": "string"
+    }
+  ]
+}
+
+
+
+/jiacc-eservices/postComplaint{
+  "Complaint_Details": "string",
+  "Attachment_Name": [
+    "string"
+  ],
+  "Complainer_Character": [
+    {
+      "Complainer_Character_GUID": "string",
+      "Nationality_GUID": "string",
+      "Other_Nationality_GUID": "string",
+      "National_Personal_Number": "string",
+      "First_Name": "string",
+      "Second_Name": "string",
+      "Third_Name": "string",
+      "Last_Name": "string",
+      "Phone_Number": "string",
+      "Region_GUID": "string",
+      "Governorate_GUID": "string",
+      "Street_Name": "string",
+      "Building_Number": "string",
+      "Gender_GUID": "string",
+      "Email": "string",
+      "Mothers_Name": "string",
+      "Birth_Date": "string",
+      "Liwaa_GUID": "string",
+      "Qadaa_GUID": "string",
+      "Municipality_GUID": "string",
+      "Locality_GUID": "string",
+      "Submitted_Comission_GUID": "string",
+      "Submitted_JudicialAuth_GUID": "string",
+      "Submitted_OtherAgency_GUID": "string",
+      "Agency_Name": "string",
+      "Alternative_Phone_Number": "string",
+      "MailBox": "string",
+      "Postal_Code": "string",
+      "Nearest_Landmark": "string",
+      "Country_Name_GUID": "string",
+      "Alternative_Country_Name_GUID": "string",
+      "Gov_Entity_Name_GUID": "string",
+      "Gov_Sub_Entity_One_GUID": "string",
+      "Gov_Sub_Entity_Two_GUID": "string",
+      "Gov_First_Name": "string",
+      "Gov_Second_Name": "string",
+      "Gov_Third_Name": "string",
+      "Gov_Last_Name": "string",
+      "Gov_Profession": "string",
+      "Gov_Country_Name_GUID": "string",
+      "Local_Civil_Society_Institution_Name_GUID": "string",
+      "International_Civil_Society_Organization_Name_GUID": "string",
+      "Private_Party_Name_GUID": "string",
+      "Club_Name_GUID": "string",
+      "Association_Name_GUID": "string",
+      "Governmental_Company_Name_GUID": "string",
+      "Semi_Governmental_Company_Name_GUID": "string",
+      "Public_Contribution_Name_GUID": "string",
+      "Authority_Employee_Name": "string",
+      "Other": "string",
+      "Gov_Phone_Number": "string",
+      "Attachments": [
+        {
+          "Attachment_Name": "string",
+          "Attachment": "string"
+        }
+      ]
+    }
+  ],
+  "Complained_About_Information": [
+    {
+      "Complained_About_Character_GUID": "string",
+      "First_Name": "string",
+      "Second_Name": "string",
+      "Third_Name": "string",
+      "Last_Name": "string",
+      "Country_Name_GUID": "string",
+      "Phone_Number": "string",
+      "Gov_Entity_Name_GUID": "string",
+      "Gov_Sub_Entity_One_GUID": "string",
+      "Gov_Sub_Entity_Two_GUID": "string",
+      "Complained_About_Profession": "string",
+      "Local_Civil_Society_Institution_Name_GUID": "string",
+      "International_Civil_Society_Organization_Name_GUID": "string",
+      "Private_Party_Name_GUID": "string",
+      "Club_Name_GUID": "string",
+      "Association_Name_GUID": "string",
+      "Governmental_Company_Name_GUID": "string",
+      "Semi_Governmental_Company_Name_GUID": "string",
+      "Public_Contribution_Name_GUID": "string",
+      "Authority_Employee_Name": "string",
+      "Other": "string",
+      "Work_Place_Name": "string",
+      "Attachments": [
+        {
+          "Attachment_Name": "string",
+          "Attachment": "string"
+        }
+      ]
+    }
+  ]
+}
+
+/jiacc-eservices/post_grievance_request{
+  "First_Name": "string",
+  "Nationality_GUID": "string",
+  "Other_Nationality_GUID": "string",
+  "Second_Name": "string",
+  "Third_Name": "string",
+  "Last_Name": "string",
+  "National_Personal_Number": "string",
+  "Gender_GUID": "string",
+  "Region_GUID": "string",
+  "Governorate_GUID": "string",
+  "Phone": "string",
+  "Alternative_Phone": "string",
+  "Main_Entity_GUID": "string",
+  "MailBox": "string",
+  "Postal_Code": "string",
+  "Procedures_GUID": "string",
+  "Email": "string",
+  "Specify_Procedures": "string",
+  "Grievance_Subject": "string",
+  "Judicial_Authorities_GUID": "string",
+  "Personal_Num": "string",
+  "Passport_Num": "string",
+  "Results": "string",
+  "Remove_Grievance": "string",
+  "Sub_Entity_One_GUID": "string",
+  "Sub_Entity_Two_GUID": "string",
+  "Incident_Date": "string",
+  "Mothers_Name": "string",
+  "Birth_Date": "string",
+  "Liwaa_GUID": "string",
+  "Qadaa_GUID": "string",
+  "Municipality_GUID": "string",
+  "Locality_GUID": "string",
+  "Job_Description": "string",
+  "Job_Number": "string",
+  "Nearest_Landmark": "string",
+  "Administrative_GUID": "string",
+  "Job_Place": "string",
+  "Street_Name": "string",
+  "Building_Number": "string",
+  "Grieved_About_Character_GUID": "string",
+  "Main_Work_Place_Entity_GUID": "string",
+  "Sub_Work_Place_Level_1_GUID": "string",
+  "Sub_Work_Place_Level_2_GUID": "string",
+  "Sub_Work_Place_Level_3_GUID": "string",
+  "Grieved_About_Name": "string",
+  "Case_Number": "string",
+  "Judicial_Grievance_Date": "string"
+}
